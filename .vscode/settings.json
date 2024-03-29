@@ -1,0 +1,17 @@
+{
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "files.associations": {
+        "**/views/**/*.html": "django-html",
+        "*.tpl": "django-html",
+        "*.css": "tailwindcss"
+    },
+    "[django-html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "junstyle.vscode-django-support"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    }
+}

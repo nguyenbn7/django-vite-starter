@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "$static/*": [
+                "./static/*",
+            ]
+        },
+        "lib": [
+            "esnext",
+            "DOM",
+            "DOM.Iterable",
+        ],
+        "allowJs": true,
+        "checkJs": true,
+        "forceConsistentCasingInFileNames": true,
+        "types": [
+            "./node_modules/vite/client.d.ts"
+        ]
+    },
+    "include": [
+        "ambient.d.ts",
+        "./static/**/*.js",
+        "./static/**/*.ts",
+        "./vite.config.js",
+    ],
+    "exclude": [
+        "./node_modules/**",
+        "./dist",
+        "./build"
+    ]
+}
